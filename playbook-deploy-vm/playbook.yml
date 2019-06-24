@@ -1,0 +1,5 @@
+- hosts: proxmox
+  gather_facts: false
+
+  roles:
+    - proxmox-vm
