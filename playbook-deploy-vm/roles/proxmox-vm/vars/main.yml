@@ -1,0 +1,14 @@
+---
+# vars file for proxmox-vm
+proxmox_host: 10.0.0.1
+proxmox_user: root@pam
+proxmox_password: vUgPwiybDJoh
+node: proxmox
+template_name: temptest
+vm_name: deb1
+vm_user: expand1
+vm_password: expand1
+vm_sshkeys:
+  - 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCw7CTDPYsBEP24dikJD/dLSwXJPjnMsCloofUu/Oe2utXoyN9LZULf5g7iELYSyEAyJIVzA/THMyQzp/C80aVk46I7Fjef/qvy7jZFX6A1PJB15/4gPnUHQ2m0/E9lNK+LGyREr4QB230npaqCOfe3RWA9tRd8Lr5EyY8k4w44L85SIYTo1Kp36ghAkS/canOFmVKZfHgb/EFBYeOivMIMPsQQZiw6Xwbg5clarmlHW+JSHTGfldT7F6jS+ZBUPZUeOUxeldeYjEg93Gtyf6mZIPwfX1V/62kCZ3yUuNl0aYmcFylUtUCtc3OLuqzTQM8dC20vNnexB1CzRm1EM8br root@ansible-test'
+vm_ipconfig0: 'ip=192.168.9.37/24,gw=192.168.9.254'
+vm_nameserver: '213.186.33.99'
